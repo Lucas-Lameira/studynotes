@@ -1,13 +1,19 @@
 import React from 'react';
-import Title from './components/Title';
 import Subtitle from './components/Subtitle';
-import {Text} from './components/Text';
+import {Text, Title} from './components';
 import {TextInput} from './components/TextInput'
 import { AgeInput } from './components/AgeInput';
 import { LastName } from './components/LastName';
 import { List } from './components/List';
 import { Form } from './components/Form';
 import { SideEffect } from './components/SideEffect';
+
+
+//rotas 
+//providers 
+//fluxo auth 
+//fluxo autorização 
+
 
 class App extends React.Component {
   render(){

@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import {Menu} from './components/Menu'
+import {ErrorBoundary} from './ErrorBoundary';
+//teste de ciclo de vida
+//import {Menu} from './components/Menu';
+
 ReactDOM.render(
   <React.StrictMode>
-    <Menu />
+    <ErrorBoundary>
+      <App />
+    </ErrorBoundary>
   </React.StrictMode>,
   document.getElementById('root')
 );
