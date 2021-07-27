@@ -1,11 +1,12 @@
-//tres formas de declarar uma variavel 
+//três formas de declarar uma variavel 
 {
-  var x; //case sensitve
-  let X; //case sensitve
+  //case sensitve identifiers
+  var x; 
+  let X;
   const z;
 }
 
-// tipos de informação primitivos
+// tipos primitivos
 {
   let p = 10;         //number
   let r = 15.5;       //number

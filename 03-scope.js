@@ -1,20 +1,18 @@
 //global scope
-let globalScope = "eu funciono em todo o script";
-const gScope = "eu funciono em todo o script";
-
-//
 var isVarGlobalScope = true;
 let isLetGlobalScope = true;
 const isConstGlobalScope = true;
 
-
-//block scope
+//block scope {} ES6
 {
-  let rule = "let tem escopo de bloco";
-  const leru = "const tem escopo de bloco";
-  console.log(globalScope);
-  //não é possível acessar as variáveis de bloco fora do scopo de bloco
+  // let e const declarados dentro de um bloco {} não podem ser acessadas de fora
+  let isLetBlockScope = true;
+  const isConstBlockScope = true;  
+
+  // var declarados dentro de um bloco {} podem ser acessadas de fora
+  var isVarBlockScope = false;
 }
+
 
 //function scope
 function myfunction(){

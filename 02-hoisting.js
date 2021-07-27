@@ -2,21 +2,19 @@
 
 //hoisting
 {
-  X = "Aqui acontece o hoisting";
+  X = "var acontece o hoisting e a variável é inicializada a qualquer momento";
   console.log(X);
   var X;
 }
 
 //gera um erro pois o hoisting não acontece com let e const
 {
-  x = "let não acontece o hoisting";
+  x = "const acontece hoisting, mas a variavel não é inicializada";
   console.log(x);
   let x = "";
 }
 
 {
   console.log(x);
-  const x = "const não acontece hoisting";
+  const x = "const acontece hoisting, mas a variavel não é inicializada";
 }
-
-//uma boa prática é declarar as variáveis no começo do script
